@@ -1,0 +1,29 @@
+{
+  "name": "shopify-updater",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "cookie": "^0.3.1",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^1.2.1",
+    "localtunnel": "^1.8.3",
+    "nonce": "^1.0.4",
+    "passport": "^0.4.0",
+    "passport-auth0": "^0.6.1",
+    "query-string": "^5.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
